@@ -20,3 +20,9 @@ Route::get('/practice', function() {
     echo 'Hello World!';
 
 });
+
+Route::get('/practice2', function() {
+
+    echo '<h2> Foobooks! </h2>';
+
+});
