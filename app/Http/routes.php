@@ -23,7 +23,7 @@ Route::get('/', function () {
 //Route::post('/books/create', 'BookController@postCreate');
 
 #Route::get('books/foo', 'BookController@bar');
-Route::controller('books','BookController');
+Route::controller('/books','BookController');
 
 
 Route::get('/practice', function() {
