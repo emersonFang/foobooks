@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespaceName\Http\Requests;
+namespace Foobooks\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

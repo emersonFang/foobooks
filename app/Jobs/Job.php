@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespaceName\Jobs;
+namespace Foobooks\Jobs;
 
 use Illuminate\Bus\Queueable;
 

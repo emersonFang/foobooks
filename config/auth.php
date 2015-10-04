@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => NewNamespaceName\User::class,
+    'model' => Foobooks\User::class,
 
     /*
     |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespaceName\Http\Middleware;
+namespace Foobooks\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

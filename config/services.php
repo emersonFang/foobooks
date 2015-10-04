@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => NewNamespaceName\User::class,
+        'model'  => Foobooks\User::class,
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

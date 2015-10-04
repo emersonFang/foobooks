@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespaceName;
+namespace Foobooks;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

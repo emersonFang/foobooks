@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespaceName\Http\Middleware;
+namespace Foobooks\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

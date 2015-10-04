@@ -1,6 +1,6 @@
 <?php
-namespace NewNamespaceName\Http\Controllers;
-use NewNamespaceName\Http\Controllers\Controller;
+namespace Foobooks\Http\Controllers;
+use Foobooks\Http\Controllers\Controller;
 class BookController extends Controller {
     public function __construct() {
         # Put anything here that should happen before any of the other actions
