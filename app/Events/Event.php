@@ -1,6 +1,6 @@
 <?php
 
-namespace Foobooks\Events;
+namespace NewNamespaceName\Events;
 
 abstract class Event
 {

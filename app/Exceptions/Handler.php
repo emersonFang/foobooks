@@ -1,6 +1,6 @@
 <?php
 
-namespace Foobooks\Exceptions;
+namespace NewNamespaceName\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
