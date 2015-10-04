@@ -11,13 +11,24 @@
 |
 */
 
+//get, post, put, delete
+
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
+
+//Route::get('/books', 'BookController@getIndex');
+//Route::get('/books/show/{title}', 'BookController@getShow');
+//Route::get('/books/create', 'BookController@getCreate');
+//Route::post('/books/create', 'BookController@postCreate');
+
+#Route::get('books/foo', 'BookController@bar');
+Route::controller('books','BookController');
+
 
 Route::get('/practice', function() {
 
-    echo 'Hello World!';
+    echo config('app.debug');
 
 });
 
