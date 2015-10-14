@@ -17,9 +17,9 @@ class BookController extends Controller {
     /**
      * Responds to requests to GET /books/show/{id}
      */
-    public function getShow($title) {
-        return 'Show book: '.$title;
-    }
+    //public function getShow($title) {
+        //return 'Show book: '.$title;
+    //}
     /**
      * Responds to requests to GET /books/create
      */
@@ -37,4 +37,11 @@ class BookController extends Controller {
     public function postCreate() {
         return 'Process adding new book'.$_POST['title'];
     }
+
+    /**
+      * Responds to requests to GET /books/show/{id}
+      */
+    public function getShow($title = null) {
+        return view('books.show')->with('title', $title);
+      }
 }
